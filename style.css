@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(219, 210, 123);
+    font-family: "Architects Daughter";
+    font-size: 24px ;
+}
+
+button {
+    background-color: rgb(75, 201, 75);
+    font-size: 2rem;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(75, 201, 75, 0.8);
+}
+
+.main-container {
+    width: 100%;
+    margin: auto;
+}
+
+.container1 {
+    padding: 0 5% ;
+    height: 75px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin: auto; 
+    justify-content: space-around;
+}
+
+.container3 {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+textarea {
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+svg {
+    color: gray;
+    cursor: pointer;
+}
+
+#check-icon {
+    position: absolute;
+    right: 17%;
+    top: 4%;
+}
+
+#x-icon {
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
